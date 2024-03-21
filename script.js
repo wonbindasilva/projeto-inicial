@@ -1,6 +1,6 @@
-event.preventDefault();
+
 var botao = document.getElementById("botao");
-botao = addEventListener("click", alertar);
+botao.addEventListener("click", alertar);
 var nome = document.getElementById("nome");
 var saida = document.getElementById("saida-de-dados");
 
